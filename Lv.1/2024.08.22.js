@@ -6,6 +6,8 @@
 // 주어진 수가 1인 경우에는 0을 반환하고
 // 작업을 500번 반복할 때까지 1이 되지 않는다면 -1을 반환
 
+// 위 작업을 몇번이나 반복해야 하는지 반환하는 함수를 완성하세요.
+
 function solution(num) {
   if (num === 1) { // 입력된 수가 1이면 0 반환
     return 0;
@@ -24,6 +26,6 @@ function solution(num) {
   }
 }
 
-console.log(solution(6));
-console.log(solution(16));
-console.log(solution(626331));
+console.log(solution(6)); // 8
+console.log(solution(16)); // 4
+console.log(solution(626331)); // -1
