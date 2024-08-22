@@ -19,7 +19,7 @@ function solution(num) {
     } else if (i === 500) { // 반복 횟수가 500번에 도달하면 -1 반환
       return -1;
     } else if (num % 2 == 0) { // num이 짝수면
-      num = num / 2; // 짝수일 경우 2로 나눈 후 다시 청므부터 if문 실행
+      num = num / 2; // 짝수일 경우 2로 나눈 후 다시 처음부터 if문 실행
     } else { // num이 홀수면
       num = (num * 3) + 1; // 홀수일 경우 3을 곱하고 1을 더한 후 다시 처음부터 if문 실행
     }
