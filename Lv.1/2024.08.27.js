@@ -5,8 +5,17 @@
 // 전부 *으로 가린 문자열을 리턴하는 함수, solution을 완성해주세요.
 
 function solution(phone_number) {
-  var answer = '';
-  return answer;
+  // 뒤에서 4자리를 제외한 모든 부분 추출
+  let frontNum = phone_number.slice(0, -4);
+
+  // 앞 부분을 '*'로 변환
+  let star = frontNum.replace(/./g, '*');
+
+  // 마지막 4자리 추출
+  let backNum = phone_number.slice(-4);
+
+  // 변환한 부분과 마지막 4자리를 합쳐서 반환
+  return star + backNum;
 }
 
 console.log(solution("01033334444")); // "*******4444"
