@@ -5,8 +5,8 @@
 function solution(num) {
   var answer = '';
   
-  // num을 2로 나눴을 때 몫이 1이면 "Odd", 몫이 0이면 "Even"
-  // 삼항 연산자에서 몫이 1이면 true로 왼쪽 값이 출력되고, 0이면 false로 오른쪽 값이 출력된다.
+  // num을 2로 나눴을 때 나머지가 1이면 "Odd", 나머지가 0이면 "Even"
+  // 삼항 연산자에서 나머지가 1이면 true로 왼쪽 값이 출력되고, 0이면 false로 오른쪽 값이 출력된다.
   return answer = num % 2 ? "Odd" : "Even";
 }
 
