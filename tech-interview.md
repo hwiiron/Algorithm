@@ -158,3 +158,9 @@ React는 사용자 인터페이스를 만들기 위한 Javascript 라이브러�
 
 React 컴포넌트는 마운트(Mount) → 업데이트(Update) → 언마운트(Unmount)의 라이프사이클을 거칩니다.
 클래스형 컴포넌트에서는 라이프사이클 메서드를 사용하고, 함수형 컴포넌트에서는 useEffect 훅을 통해 제어합니다.
+
+---
+
+### React에서 렌더링 최적화 방법은?
+
+React.memo, useMemo, useCallback을 활용하여 불필요한 렌더링을 방지할 수 있습니다.
