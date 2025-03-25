@@ -229,3 +229,9 @@ React는 변경 사항이 발생할 떄마다 Virtual DOM을 업데이트하고,
 
 Server Components는 서버에서 렌더링되는 컴포넌트로, 클라이언트 측으로 전송되기 전에 HTML로 변환됩니다. 데이터베이스 조회나 API 호출과 같은 서버 작업을 효율적으로 처리할 수 있습니다.
 Client Components는 클라이언트에서 렌더링되는 컴포넌트로, 브라우저에서 상태 및 이벤트 처리를 수행합니다. Next.js 13에서는 두 종류의 컴포넌트를 혼합하여 사용할 수 있으며, use client 지시어를 사용하여 Client Components로 지정합니다.
+
+---
+
+### Next.js에서 Incremental Static Regeneration(ISR)은 무엇인가요?
+
+ISR은 빌드 시점에 일부 페이지를 정적으로 생성하면서도, 일정 주기로 최신 데이터로 다시 생성하는 기능입니다. revalidate 옵션을 사용하여 주기적으로 페이지를 업데이트 할 수 있습니다.
