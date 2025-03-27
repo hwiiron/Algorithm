@@ -235,3 +235,9 @@ Client Components는 클라이언트에서 렌더링되는 컴포넌트로, 브�
 ### Next.js에서 Incremental Static Regeneration(ISR)은 무엇인가요?
 
 ISR은 빌드 시점에 일부 페이지를 정적으로 생성하면서도, 일정 주기로 최신 데이터로 다시 생성하는 기능입니다. revalidate 옵션을 사용하여 주기적으로 페이지를 업데이트 할 수 있습니다.
+
+---
+
+### CORS(Cross-Origin Resource Sharing)란 무엇인가요?
+
+CORS는 다른 도메인에서 자원을 요청할 때 발생하는 보안 정책으로, 브라우저에서 외부 서버에 리소스를 요청할 때 제한을 두는 기능입니다.
