@@ -289,3 +289,10 @@ OAuth는 “Open Authorization”의 약자로, 사용자가 서비스의 로그
 
 debounce : 이벤트가 연속으로 발생할 때 마지막 이벤트만 일정 시간 이후에 실행 (ex. 검색창 입력)
 throttle : 일정 시간마다 이벤트가 한 번만 실행되도록 제한 (ex. 스크롤 이벤트)
+
+---
+
+### Next.js에서 getServerSideProps와 getStaticProps의 차이는?
+
+getServerSideProps : 요청 시마다 서버에서 데이터를 가져오며, 항상 최신 데이터를 제공.
+getStaticProps : 빌드 시 데이터를 가져와 정적으로 페이지를 생성하며, 빠른 응답과 SEO에 유리함.
