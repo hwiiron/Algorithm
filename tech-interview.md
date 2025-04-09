@@ -323,3 +323,10 @@ SSR로 전달된 HTML과 브라우저에서 실행되는 React 코드가 연결�
 ### Next.js에서 이미지 최적화는 어떻게 하나요?
 
 next/image 컴포넌트를 통한 Lazy Loading, WebP 변환, 사이즈 자동 최적화를 통해 최적화 할 수 있습니다.
+
+---
+
+### Next.js의 App Router와 Page Router의 차이는 무엇인가요?
+
+Page Router는 기존 라우팅 방식이고, Pages 디렉토리 기반이며 getServerSideProps 등을 사용합니다.
+App Router는 Next.js 13 이상에서 사용하는 새로운 방식으로, app 디렉토리를 기반으로 Server Component, Layout, Loading, Error, Route Segment 등을 지원합니다.
