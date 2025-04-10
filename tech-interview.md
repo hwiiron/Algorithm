@@ -330,3 +330,13 @@ next/image 컴포넌트를 통한 Lazy Loading, WebP 변환, 사이즈 자동 �
 
 Page Router는 기존 라우팅 방식이고, Pages 디렉토리 기반이며 getServerSideProps 등을 사용합니다.
 App Router는 Next.js 13 이상에서 사용하는 새로운 방식으로, app 디렉토리를 기반으로 Server Component, Layout, Loading, Error, Route Segment 등을 지원합니다.
+
+---
+
+### HTTP 상태 코드 중 자주 쓰이는 5가지와 의미는?
+
+- 200 : 정상 응답
+- 201: 생성됨 (POST 요청 성공)
+- 400 : 잘못된 요청
+- 401 : 인증 필요
+- 500 : 서버 내부 오류
