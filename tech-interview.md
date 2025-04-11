@@ -340,3 +340,10 @@ App Router는 Next.js 13 이상에서 사용하는 새로운 방식으로, app �
 - 400 : 잘못된 요청
 - 401 : 인증 필요
 - 500 : 서버 내부 오류
+
+---
+
+### CI/CD란 무엇인가요?
+
+CI (Continuous Integration) : 코드 변경 시 자동으로 빌드 / 테스트 수행
+CD (Continuous Deployment) : 코드 변경을 자동으로 배포까지 연결
