@@ -347,3 +347,10 @@ App Router는 Next.js 13 이상에서 사용하는 새로운 방식으로, app �
 
 CI (Continuous Integration) : 코드 변경 시 자동으로 빌드 / 테스트 수행
 CD (Continuous Deployment) : 코드 변경을 자동으로 배포까지 연결
+
+---
+
+### 브라우저 캐시와 무효화 전략은 무엇인가요?
+
+브라우저는 성능 향상을 위해 리소스를 캐싱합니다. 하지만 변경된 자산을 무조건 최신으로 받아오기 위해 캐시 무효화가 필요합니다.
+대표 전략은 파일 이름에 해시를 포함하거나 Cache-Control, ETag, Last-Modified 헤더를 사용하는 것입니다.
